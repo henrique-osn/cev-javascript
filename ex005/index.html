@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício 005</title>
+
+    <style>
+      body {
+        font: 18pt Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        background-color: #3E8AD6;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="titulo">Iniciando os estudos com DOM</h1>
+
+    <p name="resultado">Aqui vai o resultado</p>
+
+    <p class="paragrafo">Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+
+    <div class="msg">Clique em mim</div>
+
+    <script>
+      document.getElementById('titulo').style.color = '#FFF00F'
+
+      let r = document.getElementsByName('resultado')[0]
+      document.write(r.innerText)
+
+      let paragrafo = document.querySelector('div.msg')
+      paragrafo.style.background = 'blue'
+    </script>
+  </body>
+</html>
