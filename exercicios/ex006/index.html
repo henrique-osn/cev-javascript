@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício 006</title>
+
+    <style>
+      #square {
+        font: bold 28px Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        background-color: #1E90FF;
+        text-transform: uppercase;
+        width: 200px;
+        height: 200px;
+        line-height: 195px;
+        text-align: center;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="square">
+      <span>Interaja...</span>
+    </div>
+
+    <script>
+      square.addEventListener('click', select)
+      square.addEventListener('mouseenter', enter)
+      square.addEventListener('mouseout', out)
+
+      function select() {
+        let area = document.getElementById('square')
+        area.innerText = 'Clicou!'
+        area.style.backgroundColor = 'green'
+        area.style.color = 'white'
+      }
+
+      function enter() {
+        let area = document.getElementById('square')
+        area.innerText = 'Entrou!'
+        area.style.backgroundColor = 'yellow'
+        area.style.color = 'black'
+      }
+
+      function out() {
+        let area = document.getElementById('square')
+        area.innerText = 'Saiu!'
+        area.style.backgroundColor = 'red'
+        area.style.color = 'white'
+      }
+    </script>
+  </body>
+</html>
