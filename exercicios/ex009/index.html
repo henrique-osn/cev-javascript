@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício 009</title>
+
+  </head>
+
+  <body>
+    <h1>Sistema de Multas</h1>
+
+    <span>Insira a velocidade do carro:</span>
+    <input type="number" name="velocidade" id="velocidade"> <span>Km/h</span>
+    <input type="button" value="Enviar" onclick="calcular()">
+
+    <div id="resposta"></div>
+
+    <script>
+      function calcular() {
+        let velocidade = Number(document.getElementById('velocidade').value)
+        let resposta = document.getElementById('resposta')
+
+        resposta.innerHTML = `<p>Sua velocidade atual é de ${velocidade}Km/h</p>`
+
+        if (velocidade > 60) {
+          resposta.innerHTML += '<p>Você está MULTADO por excesso de velocidade!</p>'
+        }
+
+        resposta.innerHTML += '<p>Dirija sempre com o cinto de segurança!</p>'
+      }
+    </script>
+  </body>
+</html>
