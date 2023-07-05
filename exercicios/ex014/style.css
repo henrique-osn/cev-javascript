@@ -1,6 +1,6 @@
 body {
     font-size: 15pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     background-color: #1E90FF;
     text-align: center;
@@ -10,20 +10,24 @@ section {
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 400px;
     margin: auto;
     color: black;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+div {
+    padding: 10px;
 }
 
 img {
     width: 250px;
     height: 250px;
     border-radius: 125px;
-    background-position: center;
-    object-fit: cover;
+    margin-bottom: 20px;
 }
 
 footer {
     font-style: italic;
+    font-weight: 500;
 }

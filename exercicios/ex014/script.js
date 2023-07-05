@@ -3,7 +3,7 @@ function carregar() {
     let imagem = document.getElementById('imagem')
 
     document.getElementById('mensagem').innerHTML = `Agora são ${hora} horas.`
-    
+
     if (hora >= 0 && hora < 12) {
         // Bom dia!
         imagem.src = './assets/manha.webp'
