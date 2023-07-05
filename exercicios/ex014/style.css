@@ -16,6 +16,14 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background-position: center;
+    object-fit: cover;
+}
+
 footer {
     font-style: italic;
 }
