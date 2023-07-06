@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Hora do Dia</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body onload="carregar()">
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+
+        <section>
+            <div id="dados">
+                <p>Ano de Nascimento:
+                    <input type="number" name="idade" id="idade">
+                </p>
+
+                <p>Sexo:
+                    <input type="radio" name="sexo" id="masculino" checked>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="feminino">
+                    <label for="feminino">Feminino</label>
+                </p>
+
+                <p><input id="button" type="button" value="Verificar" onclick="verificar()"></p>
+            </div>
+
+            <div id="resposta">
+                Preencha os campos acima para ver o resultado!
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; Curso em Vídeo</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

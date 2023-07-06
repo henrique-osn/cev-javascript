@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: #1E90FF;
+    text-align: center;
+}
+
+section {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    color: black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+div#dados {
+    text-align: left;
+    padding: 10px;
+}
+
+div#dados p:nth-child(3) {
+    text-align: center;
+}
+
+input#button {
+    background-color: #FFFFFF;
+    border-color: #1E90FF;
+    color: #1E90FF;
+    border-radius: 15px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+div#resposta {
+    margin-top: 5px;
+}
+
+img {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin-bottom: 30px;
+}
+
+footer {
+    font-style: italic;
+    font-weight: 500;
+}
