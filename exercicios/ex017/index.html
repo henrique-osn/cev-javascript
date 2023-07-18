@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Tabuada</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Gerador de Tabuada</h1>
+        </header>
+
+        <section>
+            <div id="dados">
+                <p>Número:
+                    <input type="number" name="numero" id="numero">
+                    <input id="button" type="button" value="Gerar" onclick="gerador_tabuada()">
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <select name="tabuada" id="tabuada" size="10"></select>
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; Curso em Vídeo</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: #1E90FF;
+    text-align: center;
+}
+
+section {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    color: black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+input#button {
+    background-color: #FFFFFF;
+    border-color: #1E90FF;
+    color: #1E90FF;
+    border-radius: 15px;
+    height: 25px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+select#tabuada {
+    width: 100px;
+}
+
+footer {
+    font-style: italic;
+    font-weight: 500;
+}
